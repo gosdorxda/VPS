@@ -184,3 +184,52 @@ IPv6 speedtests
     Online.net (FR):      16.24 MiB/s
     OVH BHS (CA):         9.14 MiB/s
 -------------------------------------------------
+-------------------------------------------------
+VPSSERVER $9.99
+-------------------------------------------------
+
+Processor:    QEMU Virtual CPU version 2.5+
+CPU cores:    2
+Frequency:    2199.998 MHz
+RAM:          1.9G
+Swap:         -
+Kernel:       Linux 4.15.0-50-generic x86_64
+
+Disks:
+vda     50G  HDD
+
+CPU: SHA256-hashing 500 MB
+    5.079 seconds
+CPU: bzip2-compressing 500 MB
+    8.649 seconds
+CPU: AES-encrypting 500 MB
+    5.459 seconds
+
+ioping: seek rate
+    min/avg/max/mdev = 66.8 us / 355.1 us / 19.3 ms / 737.0 us
+ioping: sequential read speed
+    generated 7.60 k requests in 5.00 s, 1.85 GiB, 1.52 k iops, 379.9 MiB/s
+
+dd: sequential write speed
+    1st run:    369.07 MiB/s
+    2nd run:    617.98 MiB/s
+    3rd run:    851.63 MiB/s
+    average:    612.89 MiB/s
+
+IPv4 speedtests
+    your IPv4:    103.6.168.xxxx
+
+    Cachefly CDN:         65.02 MiB/s
+    Leaseweb (NL):        2.47 MiB/s
+    Softlayer DAL (US):   3.79 MiB/s
+    Online.net (FR):      2.57 MiB/s
+    OVH BHS (CA):         5.64 MiB/s
+
+IPv6 speedtests
+    your IPv6:    2401:df40:2:xxxx
+
+    Leaseweb (NL):        2.66 MiB/s
+    Softlayer DAL (US):   3.86 MiB/s
+    Online.net (FR):      2.77 MiB/s
+    OVH BHS (CA):         0.00 MiB/s
+-------------------------------------------------
